@@ -19,9 +19,9 @@ public class HelloApiDecorator implements HelloApi {
 	}
 
 	public void sayHello() {
-		System.out.println("======ä¿®é¥°ä¸€ä¸‹======");
+		System.out.println("======×°ÊÎÒ»ÏÂ========");
 		helloApi.sayHello();
-		System.out.println("======ä¿®é¥°ä¸€ä¸‹======");
+		System.out.println("======×°ÊÎÒ»ÏÂ========");
 	}
 
 }
